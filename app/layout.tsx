@@ -1,4 +1,5 @@
-import './globals.css'
+// import './globals.css'
+import './output.css'; // Use in the same way as Tailwind.
 
 export default function RootLayout({
   children,
