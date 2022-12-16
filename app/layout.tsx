@@ -1,19 +1,10 @@
-// import './globals.css'
-import './output.css'; // Use in the same way as Tailwind.
+import '../styles/output.css'
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang="en" className="h-full bg-white text-slate-900 antialiased">
       <head />
-      <body>{children}</body>
+      <body className="flex h-full flex-col">{children}</body>
     </html>
   )
 }
