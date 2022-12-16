@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function LoginPage() {
   return (
-    <div className="container flex h-screen w-screen flex-col items-center justify-center">
+    <div className="flex h-screen w-screen flex-col items-center justify-center">
       <Link
         href="/"
         className="absolute top-4 left-4 inline-flex items-center justify-center gap-x-1 rounded-lg border border-slate-200 bg-slate-100 py-2 px-3 text-center text-sm font-medium text-slate-900 focus:outline-none focus:ring-2 focus:ring-slate-200 md:top-8 md:left-8"
