@@ -2,22 +2,14 @@ import Link from 'next/link'
 
 import Menu from '@/components/Menu'
 import Footer from '@/components/Footer'
+import Logo from '@/components/Logo'
 
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="container sticky top-0 z-40 mx-auto bg-white px-4 sm:px-3 md:px-5">
         <div className="flex h-16 items-center justify-between border-b border-b-slate-200 py-4">
-          <div>
-            <Link
-              href="/"
-              title="Go to the homepage"
-              className="flex items-center text-lg font-bold text-slate-900"
-            >
-              <span className="hidden sm:block">Next 13</span>
-            </Link>
-          </div>
-
+          <Logo />
           <Menu />
 
           <nav>
