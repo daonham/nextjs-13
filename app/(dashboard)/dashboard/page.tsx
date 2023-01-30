@@ -12,6 +12,8 @@ export default async function DashboardPage() {
   return (
     <>
       <section>Dashboad Page</section>
+      <p>Current User: {user.email}</p>
+      <code>{JSON.stringify(user)}</code>
     </>
   )
 }
