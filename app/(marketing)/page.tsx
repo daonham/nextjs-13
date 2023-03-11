@@ -1,7 +1,3 @@
 export default function MarketingPage() {
-  return (
-    <>
-      <section>Hello</section>
-    </>
-  )
+  return <div></div>
 }
