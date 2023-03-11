@@ -1,3 +1,5 @@
+'use client'
+
 export default function Footer() {
   return (
     <footer className="container mx-auto bg-white px-4 text-slate-600 sm:px-3 md:px-5">
