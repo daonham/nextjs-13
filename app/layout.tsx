@@ -1,6 +1,7 @@
 import './index.css'
+import type { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Dao Van Nham - Developer',
   description: 'My App Description',
 }

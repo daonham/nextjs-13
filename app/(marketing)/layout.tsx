@@ -1,9 +1,6 @@
 import Link from 'next/link'
 
-import Menu from '@/components/Menu'
-import Footer from '@/components/Footer'
-import Logo from '@/components/Logo'
-import Sidebar from '@/components/Sidebar'
+import Sidebar from '@/components/sidebar'
 
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
   return (

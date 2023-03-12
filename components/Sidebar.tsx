@@ -188,23 +188,23 @@ export default function Sidebar() {
 
   return (
     <div className="fixed inset-0 right-auto z-20 hidden w-[256px] overflow-y-auto border-r border-neutral-800 bg-[#1c1c1c] px-5 pb-5 lg:block">
-      <div className="relative flex flex-col gap-5 text-sm">
+      <div className="relative flex flex-col gap-2 text-sm">
         <div className="sticky top-0">
           <div className="h-10 bg-[#1c1c1c]"></div>
           <div className="flex bg-[#1c1c1c] pb-2">
             <Image
-              src={`https://picsum.photos/seed/${Math.random()}/200/300`}
+              src={`https://avatars.githubusercontent.com/u/18642011?v=4`}
               width={50}
               height={50}
-              className="h-10 w-10 rounded-full object-contain object-cover"
-              alt="Logo"
+              className="h-10 w-10 rounded-full object-cover object-center"
+              alt="Nhamdv"
             />
             <div className="ml-3">
               <h1 className="text-sm font-medium">Dao Van Nham</h1>
               <p className="text-sm text-neutral-500">Developer</p>
             </div>
           </div>
-          <div className="h-3 bg-gradient-to-b from-[#1c1c1c]"></div>
+          <div className="h-6 bg-gradient-to-b from-[#1c1c1c]"></div>
         </div>
         <div className="flex flex-col gap-8">
           <nav>
